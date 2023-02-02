@@ -41,15 +41,23 @@
 <nav class="navbar navbar-expand-lg bg-black">
 	<div class="container-fluid">
 		<div class="collapse navbar-collapse" id="navbarText">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px;">
-				<li class="nav-item">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; width: 85%;">
+				<li class="nav-item" style="margin-left: 20px;"> 
 					<a class="nav-link" href="index.jsp">Main</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item" style="margin-left: 20px;">
 					<a class="nav-link" href="record.jsp">정비기록</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item" style="margin-left: 20px;">
 					<a class="nav-link" href="check.jsp">검사기록</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 20px; width: 15%;">
+				<li class="nav-item">
+					<a class="nav-link" href="join.jsp">회원가입</a>
+				</li>
+				<li class="nav-item" style="margin-left: 20px;">
+					<a class="nav-link" href="login.jsp">로그인</a>
 				</li>
 			</ul>
 		</div>
@@ -64,6 +72,9 @@
 	<div class="main-text">
 		<p style="font-family: Tenada;">
 		<b>나만의 자동차 <a style="font-size: 55px;">정비 일정</a>을<br>체크해주는 사이트입니다.</b></p>
+	</div>
+	<div class="bg-black" style="text-align: center; padding: 20px;">
+		<p>&copy; Yang. All rights 양세영</p>
 	</div>
 </div>
 
